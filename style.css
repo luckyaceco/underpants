@@ -967,3 +967,24 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+/* This is the bit where I start to fuck it all up! */
+
+div#page {
+	display: grid;
+}
+
+header#masthead {
+	grid-row: 1 / 2;
+	background-color: #777;
+}
+
+main#primary {
+grid-row: 2 / 3;
+background-color: #aaa;
+}
+
+footer#colophon {
+	grid-row: 3 / 4;
+	background-color: #333;
+}
